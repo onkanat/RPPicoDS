@@ -1,4 +1,5 @@
-#Mesafe Sensörü Kullanımı#                    #// HC-SR04 ultrasonic mesafe sensörü kullanımı ile mesafe ölçen uygulama //#
+# Mesafe Sensörü Kullanımı #                    
+#// HC-SR04 ultrasonic mesafe sensörü kullanımı ile mesafe ölçen uygulama //#
 # HC-SR04 mesafe sönsörü yaklaşık 8 cm nin altındaki değerlerde hatalı ölçüm yapabilir!
 # Ölçüm aralığı teorik 2cm- 400cm, uygulamada yaklaşık 10 cm - 250 cm dir.
 from machine import Pin, I2C
